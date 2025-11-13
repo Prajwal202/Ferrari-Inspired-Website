@@ -1,0 +1,402 @@
+*{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{ 
+    width: 100%;
+}
+
+
+#nav{
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    padding: 3vw 10vw;
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#nav #centeratag{
+    color:rgb(237, 13, 13);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#centertag:hover{
+    color: rgb(187, 152, 24);
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0vw 10vw;
+
+}
+#sustain{
+    width: 10vw;
+}
+
+
+#sustain h4,h3{
+    color: rgb(216, 148, 64);
+    position: relative;
+    right: 40%;
+}
+#sustain p{
+position: relative;
+right: 40%;
+ text-transform: capitalize;
+ font-weight: 800;
+ opacity: .5;
+ font-size: 12px;
+ margin: 10px 0;
+}
+
+#sustain #susimagewrapper{
+    position: relative;
+    right: 40%;
+    overflow: hidden;
+    width: 150%;
+    height: 30vw;
+}
+
+#susimagewrapper img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: ease-out .2s;
+}
+
+#susimagewrapper img:hover{
+    scale: 103%;
+}
+
+
+
+#middle{
+    position: relative;
+    width: 33vw;
+    min-height: 35vw;
+
+}
+
+#imgtxt{
+    width: fit-content;
+    height: fit-content;
+}
+
+#middle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: ease-out .2s;
+}
+
+#middle img:hover{
+    scale:102%;
+}
+
+#middle p{
+    font-weight: 550;
+    opacity: .5;
+    margin-top: 5%;
+    font-size: 1.3vw;
+    letter-spacing: -.09vw;
+    line-height: 1.2;
+    width: 80%;
+}
+
+#middle #headings{
+    top: -15%;
+    left: -15%;
+    position: absolute;
+}
+
+#middle h1{
+    color: red;
+    font-weight: 500;
+    letter-spacing: -.5vw;
+    line-height: 1;
+    font-size: 6vw;
+    font-weight: 400;
+}
+
+#middle #upperh1{
+    color: white;
+}
+
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#visit #visitid{
+    position: relative;
+    right: 0px;
+}
+
+#circlev{
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+
+}
+
+#circlev i{
+color: #ffffff;
+}
+
+#visit h3{
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#motive{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+
+}
+
+#motive h2{
+    color: rgb(231, 228, 54);
+    margin-bottom: 25px;
+    position: relative;
+    text-wrap:nowrap;
+
+}
+#motive p{
+    line-height: 1.7;
+    letter-spacing: -.13vw;
+    position: relative;
+    margin-top: 3vw;
+    right: 0;
+    width: 90%;
+    text-align: right;
+    font-size: 1.5vw;
+}
+
+
+
+#motive span{
+    display: inline-block;
+    border-radius: 100px;
+    margin: 0 13px;
+    margin-bottom: -12.5px;
+}
+
+#onespan{
+    width: 80px;
+    height: 35px;
+    background-image: url("bluegirl.jpg");
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+#twospan{
+    width: 100px;
+    height: 35px;
+    background-image: url("shaljam.jpg");
+    background-size: cover;
+    background-position: 0% 48%;
+}
+
+#thirdspan{
+    width: 80px;
+    height: 35px;
+    background-image: url("grass.jpg");
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+
+#picture{
+    display: flex;
+    justify-content: space-between;
+    margin-top:8vw ;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+
+}
+#firstpic{
+    width: 17vw;
+}
+
+#firstpic #picimg{
+    width: 100%;
+    height: 25vw;
+    margin-bottom: 1vw;
+    
+
+}
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#firstpic h1, #secpic h1{
+ letter-spacing: -.1vw;
+ font-weight: 100;
+ font-size: 2vw;
+
+}
+ 
+
+#firstpic p, #secpic p{
+    width: 50%;
+    opacity: .8;
+    font-size: 1vw;
+    letter-spacing:-.07vw ;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+#firstpic p{
+    width: 100%;
+}
+
+#secpic{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 25vw;
+}
+
+#secpic #picimg{
+    width: 100%;
+    height: 36vw;
+    margin-bottom: 1vw;
+}
+
+
+ #secpic p{
+    width: 60%;
+    text-align: right;
+ }
+
+ #banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+ }
+
+ #bimg{
+    width:66%;
+    height: 60vh;
+    background-color: azure;
+ }
+
+ #bimg img{
+    width: 100%;
+    height: 100%;
+    object-position: 0% 73%;
+    object-fit: cover;
+    transition: ease-out .5s;
+ }
+
+ #bimg img:hover{
+    scale: 104%;
+ }
+
+ #btxt{
+    width:35%;
+    padding: 0 3vw;
+ }
+
+ #btxt h1{
+    color: red;
+ font-size: 2.7vw;
+ font-weight: 400;
+ margin-bottom: 6px;
+ letter-spacing: -.15;
+ line-height: 1;
+ }
+
+#btxt p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+
+ }
+
+ #future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+    margin-top: 1vh;
+    background-color: rgb(0, 0, 0);
+ }
+
+ #future video{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    width: 100%;
+ }
+
+ #ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+ }
+
+ #ftext button{
+    padding: .8vw 1.8vw;
+    font-size: .6vw;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 100px; 
+    background-color: rgb(16, 16, 16);
+    border: 1.2px solid white;
+    color: rgb(225, 233, 235);
+}
